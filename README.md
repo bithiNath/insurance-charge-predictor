@@ -96,12 +96,7 @@ The trained model is deployed via a **Streamlit** app that lets users enter cust
 - **Model Persistence** — Joblib
 - **Web App** — Streamlit
 
-<<<<<<< HEAD
-  
-## 🚀 Getting Started
-=======
 🚀 Getting Started
->>>>>>> d7c7ab6 (updating file)
 1. Clone the repository
 bash
 git clone https://github.com/bithiNath/insurance-charge-predictor.git
@@ -116,10 +111,6 @@ streamlit run app.py
 Make sure insurance_charge_model.pkl and feature_columns.pkl are in the same directory as app.py — the app loads them at startup.
 
 The app will open in your browser at http://localhost:8501.
-<<<<<<< HEAD
-=======
-
->>>>>>> d7c7ab6 (updating file)
 
 ## 📁 Notebook
 
