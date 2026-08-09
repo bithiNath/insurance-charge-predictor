@@ -4,7 +4,6 @@ A machine learning web application that estimates individual medical insurance c
 
 > Educational machine learning project — not financial or insurance advice.
 
----
 
 ## 📌 Overview
 
@@ -97,19 +96,22 @@ The trained model is deployed via a **Streamlit** app that lets users enter cust
 - **Model Persistence** — Joblib
 - **Web App** — Streamlit
 
+  
 ## 🚀 Getting Started
-
-### Prerequisites
-```bash
+1. Clone the repository
+bash
+git clone https://github.com/bithiNath/insurance-charge-predictor.git
+cd insurance-charge-predictor
+2. Install dependencies
+bash
 pip install streamlit pandas joblib scikit-learn
-```
-
-### Run the app
-```bash
+3. Run the app
+bash
 streamlit run app.py
-```
 
-The app will open in your browser at `http://localhost:8501`.
+Make sure insurance_charge_model.pkl and feature_columns.pkl are in the same directory as app.py — the app loads them at startup.
+
+The app will open in your browser at http://localhost:8501.
 
 ## 📁 Notebook
 
